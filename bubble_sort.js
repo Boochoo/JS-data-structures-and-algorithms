@@ -7,6 +7,7 @@ var bubbleSort = function(nums) {
 		for (var index = 0; index < nums.length; index++) {
 			loop_num++; //runs 100 times
 			log(loop_num + ' ' + nums);
+			
 			if (nums[index] > nums[index + 1]) {
 				var temp = nums[index];
 				nums[index] = nums[index + 1];
